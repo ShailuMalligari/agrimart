@@ -1,0 +1,15 @@
+{
+  "name": "agrimart-backend",
+  "version": "2.0.0",
+  "description": "AGRIMART backend - Express API with voice chatbot, reviews, negotiation, subscriptions, earnings",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
